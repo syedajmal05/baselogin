@@ -1,0 +1,182 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css");
+body {
+    background: url('/pics/login.jpeg'); 
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+              
+  .login {
+    text-align: center;
+    height: 270px;
+    width: 330px;
+    top: 230px;
+    background-color: white;
+    left:480px;
+    /* margin-right: 450px; */
+    padding-top: -10px;
+    padding-bottom: 5px;
+    border-radius: 30px;
+    border-width: 1px;
+    border-style: auto;
+    box-shadow: 0px 0px 20px black ;
+    position: relative;   
+  }
+
+  .login_textbox .form-control{
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 10px;
+    width: 270px;
+    height: 40px;
+    letter-spacing: 3px;
+    text-indent: 15%;  
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+
+.login_frgt_pass{
+     text-decoration-line: none;
+     margin-left: 140px;
+     padding-top: 10px;
+}
+.login_btn .btn{
+    position: relative;
+    top: 250px;
+    left: 453px;
+    margin-left: 40px;
+    border-style: none;
+    background-color: #011223;
+    border-radius: 10px; 
+    color: white;
+    width: 130px;
+    height: 35px;
+    transition:linear 0.3s ;
+}
+.login_btn .btn:hover{
+    box-shadow: inset 130px 0 0 0 white;
+    cursor: pointer;
+    color: #011223;
+    }
+
+.login_head_icon .bi{
+    position:relative;
+    color: #ffff;
+    font-size: 50px;
+    background-color:#045bad ;
+    padding-top: 14px;
+    padding-bottom:15px ;
+    padding-left: 21px;
+    padding-right: 20px;
+    border-radius: 100px;
+    top:-30px; 
+    /* left:600px; */
+    box-shadow: 0px 0px 10px black ;
+}
+
+.user_icon .bi{
+    position: relative;
+    top: 40px;
+    left: -117px;
+    color: #ffff;
+    background-color:#045bad ;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 7px;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+}
+
+.password_icon .bi{
+    position: relative;
+    top: 20px;
+    left: -117px;
+    color: #ffff;
+    background-color:#045bad ;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 7px;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+
+}
+/* 
+.login_textbox #exampleInputName1{
+  top: -90px;
+} */
+
+h2{
+    position:absolute ;
+    top: 57px;
+    left: 125px;
+}
+
+#powered{
+    position: fixed;
+    top: 575px;
+    left: 540px; 
+}
+
+.mb-3 #exampleInputPassword1{
+    margin-top: -10px;
+}
+
+/* #name_error{
+    position: absolute;
+    left: 50px;
+    color: #C62828;
+    background-color: rgba(255,0,00,0.1);
+  
+}
+#password_error{
+    position: absolute;
+    left: 40px;
+    color: #C62828;
+    background-color: rgba(255,0,00,0.1);
+   
+} */
+
+.mb-3 .username_verification_icon .bi{
+    display:inline;
+}
+
+.mb-3 .password_verification_icon .bi{
+    display: inline;
+}
+
+.username_verification_icon #exclamation .bi{
+    position: absolute;
+    font-size: 25px;
+    top: 41%;
+    right: 10%;
+    color: red;
+}
+.username_verification_icon #check .bi{
+    position: absolute;
+    font-size: 25px;
+    top: 41%;
+    right: 10%;
+    color: green;
+   
+}
+
+.password_verification_icon #exclamation .bi{
+    position: absolute;
+    font-size: 25px;
+    top: 67%;
+    right: 10%;
+    color: red;
+}
+
+.password_verification_icon #check .bi{
+    position: absolute;
+    font-size: 25px;
+    top: 67%;
+    right: 10%;
+    color: green;
+
+}
+

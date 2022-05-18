@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+</head>
+
+<body>
+  <!-- ==================login form===============  -->
+  <form class="login_form" name="form" onsubmit="validate()">
+    <div class="login">
+      <div class="login_head_icon"><i class="bi bi-person"></i></div>
+      <h2>Login</h2>
+      <div class="login_textbox">
+        <div class="mb-3">
+          <span class="user_icon"> <i class="bi bi-person-fill"></i></span>
+          <input type="name" class="form-control" id="exampleInputEmail1" placeholder="USERNAME" name="username">
+          <!-- <div id="username_empty">Username cannot be empty</div> -->
+          <div class="username_verification_icon">
+            <span id="exclamation"> <i class="bi bi-exclamation-circle"></i></span>
+            <span id="check"><i class="bi bi-check-circle"></i></i></span>
+          </div>
+        </div>
+        <div class="mb-3">
+          <span class="password_icon"><i class="bi bi-lock-fill"></i></span>
+          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="PASSWORD" name="password" >
+          <!-- <div id="password_empty" class="password_error">password cannot be empty</div> -->
+          <div class="password_verification_icon">
+            <span id="exclamation"><i class="bi bi-exclamation-circle"></i></i></span>
+            <span id="check"><i class="bi bi-check-circle"></i></span>
+          </div>
+        </div>
+      </div>
+      <div class="login_frgt_pass"><a href="">Forget Password ?</a></div>
+    </div>
+    <div class="login_btn">
+      <button type="submit" class="btn btn-primary">Signup</button>
+      <button type="submit" class="btn btn-primary">login</button>
+    </div>
+  </form>
+  <p id="powered">Powered By Teenofes @2022</p>
+
+<script src="validation.js"></script>
+
+  <!-- ================= bootstrap js including=========== -->
+  <script src="./assets/js/bootstrap.min.js"></script>
+  <script src="./assets/js/query.js"></script>
+  <!-- ------------------------------ -->
+</body>
+
+</html>
